@@ -46,16 +46,16 @@ function App() {
 		<div className="flex flex-col justify-center items-center w-screen h-screen bg-gray-900">
 			<div className="md:w-2/5 w-10/12">
 				<h1 className="text-white text-3xl text-center mb-3 font-sans font-semibold">Age Calculator</h1>
-				<div className="flex flex-col rounded mx-auto bg-gray-500 px-6 py-8">
+				<div className="flex flex-col rounded mx-auto bg-gray-500 px-6 py-8 w-full">
 					<label className="block text-white text-sm font-bold mb-2" htmlFor="birth">
 						Birthday
 					</label>
-					<input value={birth} onChange={changeBirthHandler} type="date" name="birth" id="birth" className="bg-white p-3 rounded mb-3 focus:outline-none focus:ring-2 ring-blue-500" />
+					<input value={birth.length > 0 ? birth : today} onChange={changeBirthHandler} type="date" name="birth" id="birth" className="bg-white p-3 rounded mb-3 focus:outline-none focus:ring-2 ring-blue-500 w-full" placeholder="Birthday" />
 
 					<label className="block text-white text-sm font-bold mb-2" htmlFor="today">
 						Today
 					</label>
-					<input value={today} onChange={changeTodayHandler} type="date" name="today" id="today" className="bg-white p-3 rounded mb-3 focus:outline-none focus:ring-2 ring-blue-500" />
+					<input value={today} onChange={changeTodayHandler} type="date" name="today" id="today" className="bg-white p-3 rounded mb-3 focus:outline-none focus:ring-2 ring-blue-500 w-full" placeholder="Today" />
 
 
 					<h3 className="text-center lg:text-2xl md:text-lg text-base font-semibold text-white">
