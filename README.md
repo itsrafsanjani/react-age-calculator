@@ -1,7 +1,7 @@
 
-# vite-react-tailwindcss starter
+# React Age Calculator
 
-a simple and clean starter for those who wants to start the project right way without any hassle.
+A simple and clean age calculator made with React, Tailwind, Vite.
 
 
 ## Run it in your device
@@ -9,13 +9,13 @@ a simple and clean starter for those who wants to start the project right way wi
 Clone the project
 
 ```bash
-  git clone https://github.com/moinulmoin/vite-react-tailwind-starter project-name
+  git clone https://github.com/itsrafsanjani/react-age-calculator
 ```
 
 Go to the project directory
 
 ```bash
-  cd project-name
+  cd react-age-calculator
 ```
 
 ### Or you can just download it as zip, then
@@ -45,9 +45,6 @@ Start the server
 ```bash
   yarn dev
 ```
-
-Now customize everything as your needs.
-
 
   
 ## License
